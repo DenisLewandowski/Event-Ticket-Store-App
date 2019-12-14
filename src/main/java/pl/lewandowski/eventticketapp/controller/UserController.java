@@ -1,6 +1,5 @@
 package pl.lewandowski.eventticketapp.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import pl.lewandowski.eventticketapp.model.User;
@@ -9,7 +8,7 @@ import pl.lewandowski.eventticketapp.service.UserService;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/user")
+@RequestMapping(value = "api/user")
 public class UserController {
 
     private final UserService service;

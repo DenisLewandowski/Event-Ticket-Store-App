@@ -8,7 +8,7 @@ import pl.lewandowski.eventticketapp.service.EventService;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/event")
+@RequestMapping(value = "api/event")
 public class EventController {
 
     private final EventService service;
